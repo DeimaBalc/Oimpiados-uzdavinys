@@ -1,0 +1,12 @@
+if (grozis == true){
+
+                rez[j] = 0;
+
+            } else {
+
+                rez[j] = auk[n] - auk[j] + 1;
+
+            }
+
+            fout << rez[j] << ' ';
+        cout << rez[j];
