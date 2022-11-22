@@ -10,3 +10,28 @@ if (grozis == true){
 
             fout << rez[j] << ' ';
         cout << rez[j];
+
+
+
+
+
+        if(grozis == false){
+                
+                    if( max < auk[n]){
+
+                        max = auk[n];
+                        } else {
+
+                            break;
+
+                        }
+                }
+                   if (max == 0) {
+
+                    rez[j] = 0;
+
+                   }else{
+
+                    rez[j] = max - auk[j] + 1;
+
+                   }
